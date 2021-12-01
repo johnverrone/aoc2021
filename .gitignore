@@ -1,0 +1,5 @@
+# ignore built ts files
+*.js
+
+# ignore dependency directories
+node_modules/
