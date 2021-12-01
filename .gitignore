@@ -1,5 +1,8 @@
-# ignore built ts files
+# built ts files
 *.js
 
-# ignore dependency directories
+# dependency directories
 node_modules/
+
+# mac os files
+.DS_Store
