@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'BebasNeue-Book';
+  src: url('../fonts/bebasneue-book-webfont.woff2') format('woff2'),
+    url('../fonts//bebasneue-book-webfont.woff') format('woff');
+}
+
+.timer-wrapper {
+  --height: 500px;
+  --width: 500px;
+
+  height: var(--height);
+  width: var(--width);
+
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+}
+
+.timer-progress-ring {
+  height: var(--height);
+  width: var(--width);
+
+  position: absolute;
+  overflow: visible;
+}
+
+.timer-progress-ring__track {
+  stroke: black;
+  filter: drop-shadow(0 0 5px black) drop-shadow(0 0 15px black);
+}
+
+.timer-progress-ring__circle {
+  stroke: var(--red);
+  transition: stroke-dashoffset 350ms;
+  transform: rotate(90deg);
+  transform-origin: 50% 50%;
+}
+
+.timer-countdown {
+  font-family: 'BebasNeue-Book';
+  font-size: 192px;
+}
+
+.timer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.timer-button {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+  margin-right: -1rem;
+
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline: inherit;
+}

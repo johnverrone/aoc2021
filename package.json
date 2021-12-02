@@ -1,24 +1,7 @@
 {
-  "name": "aoc2021",
-  "version": "1.0.0",
-  "description": "## `/code` === [Advent of Code](https://adventofcode.com/)",
-  "main": "index.js",
-  "scripts": {
-    "build": "npx tsc",
-    "start": "npx ts-node"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/johnverrone/aoc2021.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/johnverrone/aoc2021/issues"
-  },
-  "homepage": "https://github.com/johnverrone/aoc2021#readme",
-  "devDependencies": {
-    "ts-node": "^10.4.0",
-    "typescript": "^4.5.2"
-  }
+  "name": "jv-2021-advent-challenges",
+  "workspaces": [
+    "code",
+    "web"
+  ]
 }

@@ -1,0 +1,19 @@
+.container {
+  --background-color: #2b2a30;
+  --red: #9d0000;
+  --green: #00aa51;
+
+  background-color: var(--background-color);
+}
+
+.title {
+  color: white;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}

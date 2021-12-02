@@ -6,3 +6,8 @@ node_modules/
 
 # mac os files
 .DS_Store
+
+# vite build
+dist
+dist-ssr
+*.local
