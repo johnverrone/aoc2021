@@ -1,6 +1,6 @@
 # Advent of Code 2021
 
-#### Day 01
+### Day 01
 
 Simple iteration through all the numbers in the file with some counting. Most of my time today was spent setting up the project and remembering how to read contents from a file lol
 
