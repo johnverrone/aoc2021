@@ -55,6 +55,44 @@ h6 {
 
 .App {
   display: grid;
-  grid-template-columns: 300px 1fr;
+  grid-template-columns: 150px 1fr;
   height: 100%;
+}
+
+.App nav {
+  background-color: hsl(0deg 0% 10%);
+}
+
+.App nav ol {
+  padding: 20px;
+  list-style-type: none;
+}
+
+.App nav ol li {
+  font-family: monospace;
+  font-size: 1rem;
+  text-transform: lowercase;
+}
+
+.App nav ol li:before {
+  content: '[';
+  color: hsl(0deg 0% 100%);
+}
+
+.App nav ol li:after {
+  content: ']';
+  color: hsl(0deg 0% 100%);
+}
+
+a {
+  color: hsl(100deg 73% 56%);
+}
+
+button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline: inherit;
 }

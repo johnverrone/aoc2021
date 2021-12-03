@@ -1,0 +1,82 @@
+.day02-container {
+  --background-color: #eff0f6;
+  --border-color: #d7d6fc;
+  --primary-purple: #6b00f5;
+  --pattens-blue: #e1f0fe;
+  --ghost-white: #f7f7ff;
+  --white-ice: #defef0;
+
+  background-color: var(--background-color);
+  font-family: 'Poppins';
+
+  position: relative;
+}
+
+.day02-content {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  gap: 50px;
+}
+
+.day02-bg__btm-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.day02-bg__left {
+  position: absolute;
+  top: calc(50% - 293px);
+  left: 0;
+}
+
+.day02-bg__top-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.day02-card {
+  background-color: white;
+  height: 800px;
+  width: 375px;
+  border-radius: 25px;
+
+  box-shadow: 0 0 70px 0 #c7cbe3;
+
+  padding: 50px 0 0 30px;
+  overflow: scroll;
+}
+
+.day02-cart {
+  padding-right: 30px;
+}
+
+.day02-card-title {
+  font-size: 2rem;
+  padding-bottom: 12px;
+}
+
+.day02-total-box {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.day02-total-row {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  text-align: right;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.day02-total-row label {
+  text-align: right;
+}
+
+.day02-total-row span {
+  font-size: 2rem;
+}

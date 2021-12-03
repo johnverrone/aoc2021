@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useInterval } from '../hooks/useInterval';
-import Gear from '../images/gear.svg';
+import Gear from '../resources/images/gear.svg?component';
 import './Timer.css';
 
 export const Timer = () => {
@@ -52,7 +52,10 @@ export const Timer = () => {
         <button className="timer-button" onClick={toggleState}>
           {active ? 'stop' : 'start'}
         </button>
-        <span className="timer-settings-button">gear</span>
+        <br />
+        <span className="timer-settings-button">
+          <Gear />
+        </span>
       </div>
     </div>
   );

@@ -4,9 +4,8 @@ import './index.css';
 
 export const Day01 = () => {
   return (
-    <div className="container">
-      <h1 className="title">Day 01 - Pomodoro Timer</h1>
-      <div className="content">
+    <div className="day01-container">
+      <div className="day01-content">
         <Timer />
       </div>
     </div>

@@ -9,6 +9,9 @@ function App() {
           <li>
             <Link to="/day01">Day 01</Link>
           </li>
+          <li>
+            <Link to="/day02">Day 02</Link>
+          </li>
         </ol>
       </nav>
       <Outlet />
