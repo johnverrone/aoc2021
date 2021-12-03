@@ -12,6 +12,12 @@ function App() {
           <li>
             <Link to="/day02">Day 02</Link>
           </li>
+          <br />
+          <li>
+            <a href="https://github.com/johnverrone/aoc2021/tree/main/web">
+              github
+            </a>
+          </li>
         </ol>
       </nav>
       <Outlet />
