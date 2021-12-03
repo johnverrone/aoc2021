@@ -10,7 +10,7 @@ const diagnostics = fs
 let gamma = 0;
 let epsilon = 0;
 
-const oneCount = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+const oneCount = Array.from({ length: diagnostics[0].length }, () => 0);
 
 diagnostics.forEach((d) => {
   const bits = d.split('');
