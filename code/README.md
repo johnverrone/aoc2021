@@ -23,3 +23,7 @@ Part 2 took me hours longer than it should have because of an error where I was 
 ### Day 05
 
 Straightforward. Tried to use an actual interface and a matrix to represent the grid this time instead of doing it in a single dimension array like Day 4. Only thing that tripped me up was that I needed to take the absolute value of `x2 - x1` when calculating the length of a diagonal in part 2 🤦‍♂️
+
+### Day 06
+
+This was a fun one. Easy to solve part 1 using an array but immediately noticed what the problem was going to be when getting to part 2. Took some time to scratch out a couple 'days' of reproduction thinking that maybe there is some formula to use for each 'lifespan remaining' value to determine how many fish will exist with a given input, but ended up seeing the pattern. Since we don't really care about the indivudual fish (sorry fish), we can just keep a map to store counts of fish by 'days left to live.' With a little additional logic on '6 days remaining,' we end up with a pretty clean solution that isn't going to suck up every bit of memory your computer has to offer. This one was fun. I was also thinkng that the solution might break the max integer value, and I'd have to look at `BigInt` options, but it seemed to come out just fine with `number`.
