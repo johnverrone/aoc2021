@@ -19,3 +19,7 @@ I actually got stumped on part 2 a bit. Right off the bat a recursive solution s
 Once again I feel like trying to get too cute and clever with it was my downfall. Ended up spending way too much time trying to figure out how to solve bingo in the most minimal amount of loops and array definitions. I eventually took a more verbose approach creating `markCalled()` and `checkForWinner()` functions to finally solve part 1.
 
 Part 2 took me hours longer than it should have because of an error where I was removing the boards that won and continuing on before all the subsequent boards were able to get marked. I solved this naively by moving the 'marking' and the 'checking for winner' logic into two separate for loops, but I'm sure there's a more elegant solution here. Frustrating puzzle tbh. Spent too much time confirming my logic was valid only to realize it kinda was -- just my variable references were causing the logic to not work correctly.
+
+### Day 05
+
+Straightforward. Tried to use an actual interface and a matrix to represent the grid this time instead of doing it in a single dimension array like Day 4. Only thing that tripped me up was that I needed to take the absolute value of `x2 - x1` when calculating the length of a diagonal in part 2 🤦‍♂️
