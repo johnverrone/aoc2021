@@ -21,7 +21,7 @@ for (let pos = minPos; pos <= maxPos; pos++) {
     cheapest = distance;
   }
 }
-console.log('Part 1', minPos, maxPos, cheapest);
+console.log('Part 1', cheapest);
 
 // Part 2
 cheapest = Number.MAX_VALUE;
