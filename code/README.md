@@ -27,3 +27,7 @@ Straightforward. Tried to use an actual interface and a matrix to represent the 
 ### Day 06
 
 This was a fun one. Easy to solve part 1 using an array but immediately noticed what the problem was going to be when getting to part 2. Took some time to scratch out a couple 'days' of reproduction thinking that maybe there is some formula to use for each 'lifespan remaining' value to determine how many fish will exist with a given input, but ended up seeing the pattern. Since we don't really care about the indivudual fish (sorry fish), we can just keep a map to store counts of fish by 'days left to live.' With a little additional logic on '6 days remaining,' we end up with a pretty clean solution that isn't going to suck up every bit of memory your computer has to offer. This one was fun. I was also thinkng that the solution might break the max integer value, and I'd have to look at `BigInt` options, but it seemed to come out just fine with `number`.
+
+### Day 07
+
+Obviously a puzzle that was solved by a lot of people very quickly considering the leaderboards were throwing 500's within minutes of the puzzle being launched. The two things that slowed me down were 1. remembering the formula for `n + (n + 1) + (n + 2) + ...` and 1. realizing that `n` to the power of `x` in JavaScript is `n ** x` **not** `n ^ x` 🤦‍♂️.
