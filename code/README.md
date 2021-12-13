@@ -31,3 +31,11 @@ This was a fun one. Easy to solve part 1 using an array but immediately noticed 
 ### Day 07
 
 Obviously a puzzle that was solved by a lot of people very quickly considering the leaderboards were throwing 500's within minutes of the puzzle being launched. The two things that slowed me down were 1. remembering the formula for `n + (n + 1) + (n + 2) + ...` and 1. realizing that `n` to the power of `x` in JavaScript is `n ** x` **not** `n ^ x` 🤦‍♂️.
+
+### Day 08
+
+I got stuck on part 2 forever. I felt like I was going in circles on if I should be finding out which segments map to which digit or if I should be determining which signals map to what actual segment line on the clock and then find the digits. Idk... either way, it was frustrating enough that I didn't want to come back to AoC for a couple of days. Plus I was out of town so there were better things to do haha.
+
+### Day 09
+
+This was kinda fun. I knew there had to be an algorithm out there for spreading out to determine the basin sizes. TIL about [flood fill](https://en.wikipedia.org/wiki/Flood_fill). I think my logic could be a little cleaner and there's probably an even faster way to do this (maybe without even knowing the low points first), but I enjoyed using a queue (over implementing it recursively) and learning about flood fill.
