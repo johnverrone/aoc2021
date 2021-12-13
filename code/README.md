@@ -39,3 +39,7 @@ I got stuck on part 2 forever. I felt like I was going in circles on if I should
 ### Day 09
 
 This was kinda fun. I knew there had to be an algorithm out there for spreading out to determine the basin sizes. TIL about [flood fill](https://en.wikipedia.org/wiki/Flood_fill). I think my logic could be a little cleaner and there's probably an even faster way to do this (maybe without even knowing the low points first), but I enjoyed using a queue (over implementing it recursively) and learning about flood fill.
+
+### Day 10
+
+A pretty straight forward problem but using stacks this time. I had the most trouble dealing with dumb little JS/TS things like reversing an array without modifying it (didn't actually matter if I modified it, but I wanted the console logs to look pretty) and type safety with `.get()` returning undefined.
